@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-    <title>Static Website</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Static Website - Responsive Version</title>
 </head>
 <body>
     <!-- 1. Header Section -->
@@ -17,8 +17,15 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#faq">FAQ</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
     </header>
 
@@ -26,8 +33,12 @@
     <section id="hero" class="hero">
         <div class="hero-content">
             <h1>Welcome to Our Static Website</h1>
-            <p>Placeholder text for hero section. This is where your main call-to-action would go.</p>
+            <p>Discover the power of simplicity and elegance in web design. Our static website is built to provide fast, reliable, and engaging experiences for users. Whether you're looking for information, services, or just inspiration, we've got you covered. Placeholder text for hero section. This is where your main call-to-action would go, encouraging visitors to explore more about what we offer.</p>
             <button class="cta-button">Get Started</button>
+            <button class="cta-button secondary">Learn More</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://via.placeholder.com/800x400?text=Hero+Image" alt="Hero Image Placeholder">
         </div>
     </section>
 
@@ -36,24 +47,121 @@
         <!-- About Section -->
         <section id="about" class="content-section">
             <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <div class="about-grid">
+                <div class="about-item">
+                    <h3>Our Mission</h3>
+                    <p>To deliver high-quality, user-friendly static websites that meet the needs of our clients and their audiences.</p>
+                </div>
+                <div class="about-item">
+                    <h3>Our Vision</h3>
+                    <p>To be the leading provider of static web solutions, fostering innovation and creativity in every project.</p>
+                </div>
+                <div class="about-item">
+                    <h3>Our Values</h3>
+                    <p>Integrity, excellence, and customer satisfaction are at the core of everything we do.</p>
+                </div>
+            </div>
+            <h3>Meet Our Team</h3>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150?text=Team+Member+1" alt="Team Member 1">
+                    <h4>John Doe</h4>
+                    <p>Founder & CEO</p>
+                    <p>John has over 10 years of experience in web development and design.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150?text=Team+Member+2" alt="Team Member 2">
+                    <h4>Jane Smith</h4>
+                    <p>Lead Designer</p>
+                    <p>Jane specializes in creating visually stunning and intuitive user interfaces.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://via.placeholder.com/150?text=Team+Member+3" alt="Team Member 3">
+                    <h4>Bob Johnson</h4>
+                    <p>Developer</p>
+                    <p>Bob ensures that all our websites are fast, secure, and fully functional.</p>
+                </div>
+            </div>
         </section>
 
         <!-- Services Section -->
         <section id="services" class="content-section">
             <h2>Our Services</h2>
+            <p>We offer a wide range of services to help you build and maintain your online presence. From design to development, we've got the expertise to bring your vision to life.</p>
             <div class="services-grid">
                 <div class="service-item">
-                    <h3>Service 1</h3>
-                    <p>Placeholder description for service one.</p>
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom static website development using the latest technologies. We create responsive, fast-loading sites that work on all devices. Placeholder description for service one, expanded with more details about our process and benefits.</p>
                 </div>
                 <div class="service-item">
-                    <h3>Service 2</h3>
-                    <p>Placeholder description for service two.</p>
+                    <i class="fas fa-palette"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Eye-catching designs for logos, banners, and more. Our team uses creative tools to make your brand stand out. Placeholder description for service two, including information on our design philosophy and tools used.</p>
                 </div>
                 <div class="service-item">
-                    <h3>Service 3</h3>
-                    <p>Placeholder description for service three.</p>
+                    <i class="fas fa-search"></i>
+                    <h3>SEO Optimization</h3>
+                    <p>Improve your site's visibility on search engines. We implement best practices to drive more traffic to your website. Placeholder description for service three, with tips on how SEO can benefit your business.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Optimization</h3>
+                    <p>Ensure your site looks great on smartphones and tablets. We focus on mobile-first design principles.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security Audits</h3>
+                    <p>Protect your website from threats with our comprehensive security checks and recommendations.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Analytics Integration</h3>
+                    <p>Track your site's performance with integrated analytics tools to make data-driven decisions.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="content-section">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-item">
+                    <p>"SATIC delivered an amazing static website that exceeded our expectations. Highly recommend!"</p>
+                    <cite>- Client A</cite>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Professional, fast, and creative. Our new site looks fantastic and loads quickly."</p>
+                    <cite>- Client B</cite>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Great service from start to finish. They made the process easy and enjoyable."</p>
+                    <cite>- Client C</cite>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="content-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>What is a static website?</h3>
+                    <p>A static website consists of fixed content that doesn't change based on user input. It's simple, fast, and secure.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How long does it take to build a static website?</h3>
+                    <p>Depending on complexity, it can take anywhere from a few days to a couple of weeks.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you provide hosting services?</h3>
+                    <p>Yes, we can recommend reliable hosting options and assist with setup.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I update the content myself?</h3>
+                    <p>For static sites, updates typically require developer assistance, but we can discuss content management options.</p>
                 </div>
             </div>
         </section>
@@ -61,19 +169,57 @@
         <!-- Contact Section -->
         <section id="contact" class="content-section">
             <h2>Contact Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reach out to us for more information.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reach out to us for more information. We're here to help with any questions or inquiries you might have.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email: info@satic.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Address: 123 Main St, Anytown, USA</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
         </section>
     </main>
 
     <!-- 4. Footer Section -->
     <footer>
         <div class="footer-content">
-            <p>&copy; 2026 Static Website. All rights reserved. Placeholder footer content.</p>
+            <p>&copy; 2026 Static Website. All rights reserved. Placeholder footer content with additional links and information.</p>
             <ul class="footer-links">
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Sitemap</a></li>
             </ul>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
         </div>
     </footer>
+
+     <script src="script.js"></script>
 </body>
 </html>
