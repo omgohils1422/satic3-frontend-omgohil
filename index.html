@@ -5,24 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
+  <title>SATIC | Modern Digital Solutions</title>
   <link rel="stylesheet" href="style.css">
-  <title>Static Website</title>
 </head>
 <body>
 
+<!-- Header -->
 <header class="header">
-  <nav class="nav">
-    <div class="logo">SATIC</div>
+  <nav class="nav container">
+    <a href="#" class="logo">S A T I C</a>
 
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
-      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#team">Team</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
 
@@ -32,89 +34,244 @@
   </nav>
 </header>
 
+<!-- Hero Section -->
 <section class="hero">
-  <div class="hero-content">
-    <h1>Clean & Responsive Static Websites</h1>
-    <p>We build fast, modern, and easy-to-use static websites using clean HTML & CSS.</p>
-    <button class="btn">Get Started</button>
+  <div class="container">
+    <div class="hero-content">
+      <h1>Clean & Responsive Digital Experiences</h1>
+      <p>We build fast, modern, and user-centric static websites. Focus on your business while we handle your digital presence with clean HTML & CSS.</p>
+      <a href="#contact" class="btn">Get Started</a>
+      <a href="#portfolio" class="btn btn-outline" style="margin-left: 10px;">View Work</a>
+    </div>
+    <div class="hero-image">
+      <!-- Random tech/workspace image -->
+      <img src="https://picsum.photos/seed/techworkspace/600/400" alt="Modern workspace setup" width="600" height="400">
+    </div>
   </div>
 </section>
 
+<!-- About Section -->
 <section id="about" class="section">
-  <h2>About Us</h2>
-
-  <div class="grid">
-    <div class="card">
-      <h3>Mission</h3>
-      <p>Deliver fast and reliable static websites.</p>
-    </div>
-    <div class="card">
-      <h3>Vision</h3>
-      <p>Simple design with great usability.</p>
-    </div>
-    <div class="card">
-      <h3>Values</h3>
-      <p>Quality, clarity, consistency.</p>
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image">
+        <img src="https://picsum.photos/seed/teamcollaboration/600/500" alt="Team collaborating">
+      </div>
+      <div class="about-text">
+        <h2 class="section-title" style="text-align: left;">About SATIC</h2>
+        <p>Founded in 2024, SATIC is a digital agency dedicated to stripping away the unnecessary complexity of web development. We believe that a website should be fast, accessible, and beautiful without the bloat of heavy frameworks.</p>
+        <p>Our approach combines semantic structure with modern design principles to ensure your content shines on any device, from a 4K desktop monitor to a mobile phone.</p>
+        
+        <div class="about-stats">
+          <div class="stat-item">
+            <h4>150+</h4>
+            <span>Projects</span>
+          </div>
+          <div class="stat-item">
+            <h4>98%</h4>
+            <span>Satisfaction</span>
+          </div>
+          <div class="stat-item">
+            <h4>24/7</h4>
+            <span>Support</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- Services Section -->
 <section id="services" class="section alt">
-  <h2>Our Services</h2>
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-subtitle">We offer comprehensive digital solutions tailored to your specific needs.</p>
 
-  <div class="grid">
-    <div class="card">
-      <i class="fas fa-code"></i>
-      <h3>Development</h3>
-      <p>Responsive static websites.</p>
-    </div>
-    <div class="card">
-      <i class="fas fa-palette"></i>
-      <h3>Design</h3>
-      <p>Modern UI & layouts.</p>
-    </div>
-    <div class="card">
-      <i class="fas fa-mobile-alt"></i>
-      <h3>Mobile Ready</h3>
-      <p>Optimized for all screens.</p>
+    <div class="grid">
+      <div class="card">
+        <i class="fas fa-code service-icon"></i>
+        <h3>Web Development</h3>
+        <p>Hand-coded, semantic HTML5 & CSS3 websites that load instantly and rank well on search engines.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-paint-brush service-icon"></i>
+        <h3>UI/UX Design</h3>
+        <p>Creating intuitive and visually appealing interfaces that guide your users toward conversion.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-mobile-alt service-icon"></i>
+        <h3>Mobile Optimization</h3>
+        <p>Ensuring your website looks and functions perfectly on smartphones, tablets, and desktops.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-search-dollar service-icon"></i>
+        <h3>SEO Strategy</h3>
+        <p>Technical optimization to help your content get found by the right audience organically.</p>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- Portfolio Section -->
+<section id="portfolio" class="section">
+  <div class="container">
+    <h2 class="section-title">Featured Work</h2>
+    <p class="section-subtitle">A glimpse into the projects we’ve brought to life.</p>
+
+    <div class="grid">
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/seed/architecture/400/300" alt="Project 1">
+        <div class="portfolio-overlay">
+          <h3>Modern Architecture</h3>
+          <p>Web Design & Development</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/seed/coffee/400/300" alt="Project 2">
+        <div class="portfolio-overlay">
+          <h3>Bean & Brew</h3>
+          <p>E-Commerce Platform</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/seed/finance/400/300" alt="Project 3">
+        <div class="portfolio-overlay">
+          <h3>FinTech App</h3>
+          <p>UI Design System</p>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/seed/nature/400/300" alt="Project 4">
+        <div class="portfolio-overlay">
+          <h3>Eco Travel</h3>
+          <p>Booking Engine</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team Section -->
+<section id="team" class="section alt">
+  <div class="container">
+    <h2 class="section-title">Meet The Team</h2>
+    <p class="section-subtitle">The creative minds behind SATIC.</p>
+
+    <div class="grid">
+      <div class="card team-card">
+        <img src="https://picsum.photos/seed/person1/200/200" alt="Team Member" class="team-img">
+        <h3>Sarah Jenkins</h3>
+        <span class="team-role">Lead Designer</span>
+        <p>Sarah brings 10 years of visual design experience, ensuring every pixel is perfect.</p>
+      </div>
+      <div class="card team-card">
+        <img src="https://picsum.photos/seed/person2/200/200" alt="Team Member" class="team-img">
+        <h3>David Ross</h3>
+        <span class="team-role">Senior Developer</span>
+        <p>A code wizard who specializes in performance optimization and accessibility.</p>
+      </div>
+      <div class="card team-card">
+        <img src="https://picsum.photos/seed/person3/200/200" alt="Team Member" class="team-img">
+        <h3>Elena Gomez</h3>
+        <span class="team-role">Project Manager</span>
+        <p>Elena keeps projects on track and ensures communication is always clear.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
 <section id="testimonials" class="section">
-  <h2>Client Feedback</h2>
-
-  <div class="grid">
-    <div class="card">
-      <p>“Fast delivery and clean design.”</p>
-      <strong>– Client A</strong>
-    </div>
-    <div class="card">
-      <p>“Very professional and responsive.”</p>
-      <strong>– Client B</strong>
-    </div>
-    <div class="card">
-      <p>“Highly recommended.”</p>
-      <strong>– Client C</strong>
+  <div class="container">
+    <h2 class="section-title">Client Feedback</h2>
+    <div class="grid" style="margin-top: 3rem;">
+      <div class="card">
+        <div style="color: var(--primary); margin-bottom: 1rem;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p style="font-style: italic; margin-bottom: 1.5rem;">“SATIC transformed our outdated site into a modern sales machine. The speed improvement alone doubled our leads.”</p>
+        <strong>– Michael Chen, CEO of TechFlow</strong>
+      </div>
+      <div class="card">
+        <div style="color: var(--primary); margin-bottom: 1rem;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p style="font-style: italic; margin-bottom: 1.5rem;">“Professional, responsive, and incredibly talented. They understood our brand voice immediately.”</p>
+        <strong>– Jessica Lee, Founder of PureSkin</strong>
+      </div>
+      <div class="card">
+        <div style="color: var(--primary); margin-bottom: 1rem;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+        <p style="font-style: italic; margin-bottom: 1.5rem;">“The best investment we made this year. The clean code structure makes it easy for us to update content.”</p>
+        <strong>– Robert Fox, Director at Logistics Co.</strong>
+      </div>
     </div>
   </div>
 </section>
 
+<!-- Contact Section -->
 <section id="contact" class="section alt">
-  <h2>Contact Us</h2>
+  <div class="container">
+    <h2 class="section-title">Get In Touch</h2>
+    <p class="section-subtitle">Ready to start your project? Send us a message.</p>
 
-  <form class="form">
-    <input type="text" placeholder="Name" required>
-    <input type="email" placeholder="Email" required>
-    <textarea rows="4" placeholder="Message"></textarea>
-    <button class="btn">Send Message</button>
-  </form>
+    <div class="form-container">
+      <form class="form" onsubmit="event.preventDefault(); alert('Thank you for your message! We will get back to you shortly.');">
+        <div class="form-group">
+          <label for="name" style="display:block; margin-bottom:0.5rem; font-weight:500;">Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Your full name" required>
+        </div>
+        <div class="form-group">
+          <label for="email" style="display:block; margin-bottom:0.5rem; font-weight:500;">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="you@company.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message" style="display:block; margin-bottom:0.5rem; font-weight:500;">Message</label>
+          <textarea id="message" rows="4" class="form-control" placeholder="Tell us about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+      </form>
+    </div>
+  </div>
 </section>
 
+<!-- Footer -->
 <footer class="footer">
-  <p>© 2026 Static Website</p>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-col">
+        <a href="#" class="logo" style="color: white; display:block; margin-bottom: 1rem;">SATIC.</a>
+        <p style="font-size: 0.9rem; line-height: 1.6; color: #9ca3af;">
+          Building the web with clean code and modern design. We help businesses grow online.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Info</h4>
+        <ul>
+          <li><i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i> 123 Design St, Creative City</li>
+          <li><i class="fas fa-envelope" style="margin-right: 8px;"></i> hello@satic.com</li>
+          <li><i class="fas fa-phone" style="margin-right: 8px;"></i> +1 (555) 123-4567</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2026 SATIC Digital. All rights reserved.</p>
+    </div>
+  </div>
 </footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
